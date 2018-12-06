@@ -19,8 +19,8 @@ class CadastraPessoa(View):
             form = PessoaEditForm(instance=pessoa)
         else:
             form = PessoaForm()
-            print("----------")
-            print(form)
+            #print("----------")
+            #print(form)
 
         return render(request, self.template, {'form': form, 'id': id})
 

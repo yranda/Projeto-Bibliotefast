@@ -1,0 +1,13 @@
+Aqui tem alguns links e documentos que levam para tutoriais
+
+
+Sphinx
+https://madradavid.com/documenting-your-django-application-sphinx/
+
+
+Documentação do registration-redux
+https://django-registration-redux.readthedocs.io/en/latest/quickstart.html
+
+
+Video sobre registration-redux
+https://www.youtube.com/watch?v=qkFWkOw-ByU

@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+    <section class="ui container">
+        <article class="ui grid">
+            <div class="two wide column"></div>
+            <div class="twelve wide column" id="margem">
+    {% if user.is_authenticated %}
+        <h3>{{ msg }}</h3><br/>
+    {% if tipo_lista == "dicionario" %}
+    {% for dono_id, livros in livros.items %}
+            {% for livro in livros %}
+                <a href="{% url 'estante:perfil_livro' livro.id %}">Título: {{ livro.titulo }}</a><br>
+                Autor: {{ livro.autor }} <br/>
+                Dono : {{ livro.dono }} <br/>
+                <br/>
+            {% endfor %}
+        {% endfor %}
+
+    {% else %}
+        {% for livro in livros %}
+            {% if livro.status == True and livro.dono.is_active == True %}
+                <a href="{% url 'estante:perfil_livro' livro.id %}">
+                    Título: {{ livro.titulo }}</a><br>
+                    Autor: {{ livro.autor }}<br>
+                    Dono: {{ livro.dono  }}<br/>
+                <br/>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    <a href="{% url 'estante:lista_livros' %}">Voltar à sua biblioteca</a><br/>
+    {% else %}
+        <h4>Você não está logado no sistema</h4>
+        <a href="{% url 'estante:login' %}">Login</a><br/>
+    {% endif %}
+            </div>
+        </article>
+    </section>
+{% endblock content %}

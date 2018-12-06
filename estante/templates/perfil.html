@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block content %}
+
+    <h1>
+        {% trans "Perfil" %}
+    </h1>
+
+    <section class="ui container">
+        <article class="ui grid">
+            <div class="two wide column"></div>
+            <div class="twelve wide column" id="margem">
+
+
+                <strong>{% trans "Nome Completo" %}</strong>
+                <p>{{ request.session.first_name }} {{ request.session.last_name }}</p><br/>
+                <strong>CPF</strong>
+                <p>{{ request.session.cpf }}</p><br/>
+                <strong>Email</strong>
+                <p>{{ request.session.email }} </p><br/>
+                <strong>{% trans "Endereço" %}</strong>
+                <p>{{ request.session.endereco }}</p><br/>
+                <strong>{% trans "Telefone" %}</strong>
+                <p>{{ request.session.telefone }}</p>
+            </div>
+        </article>
+    </section>
+
+{% endblock content %}

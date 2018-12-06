@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+    <h1>
+        {% trans "Listagem de Livros" %}
+    </h1>
+
+    <section class="ui container">
+        <article class="ui grid">
+            <div class="two wide column"></div>
+            <div class="twelve wide column" id="margem">
+                {% if user.is_authenticated %}
+                    <h4>{% trans "Meus livros" %}</h4>
+                    {% for livro in livros %}
+                        {% ifequal user.id livro.dono.id %}
+                            {% trans "Título: " %}
+                            <a href="{% url 'estante:perfil_livro' livro.id %}">{{ livro.titulo }}</a><br/>
+                        {% endifequal %}
+                    {% endfor %}
+                    {% if emprestimos %}
+                        <h4>{% trans "Livros Emprestados" %}</h4>
+
+                        {% for emprestimo in emprestimos %}
+                            {% if emprestimo.pegou_emprestado_id == user.id %}
+                                <a href="{% url 'estante:perfil_livro' emprestimo.livro_emprestado_id %}">{{ emprestimo.livro_emprestado.titulo }}</a>
+                                <br/>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                    <br/>
+                    <div>
+                        <h4>{% trans "Procurar livro" %}</h4>
+                        <form method="POST" action="{% url 'estante:procurar_livro' %}" class='ui form'>
+                            {% csrf_token %}
+
+                            {% if msg %}
+                                <div>{{ msg }}</div>
+                            {% endif %}
+                            <select name='tipo' style="width: 100px">
+                                <option value='titulo'>{% trans "Título" %}</option>
+                                <option value='autor'>{% trans "Autor" %}</option>
+                                <option value='dono'>{% trans "Dono" %}</option>
+                            </select><br/>
+                            <input type="text" name="procura" onfocus="this.value='';" style="width: 400px"><br/><br/>
+                            <button type="submit" class="ui button">{% blocktrans %}Pesquisa{% endblocktrans %}</button>
+                            <br/>
+                        </form>
+                    </div>
+                {% else %}
+                    <h4>{% trans "Você não está logado no sistema" %}</h4>
+                    <a href="{% url 'estante:login' %}">Login</a><br/>
+                {% endif %}
+            </div>
+        </article>
+    </section>
+{% endblock content %}

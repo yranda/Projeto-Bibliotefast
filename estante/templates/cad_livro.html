@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+    {% if user.is_authenticated %}
+        {% if id == None %}
+            <h1>{% trans "Cadastro de Livro" %}</h1>
+        {% else %}
+            <h1>{% trans "Edição de Livro" %}</h1>
+        {% endif %}
+
+        <section class="ui container">
+            <article class="ui grid">
+                <div class="two wide column"></div>
+                <div class="twelve wide column" id="margem">
+
+                    {% if msg %}
+                        {{ msg }}
+                    {% endif %}
+
+                    {% if id == None %}
+                        <form method="POST" action="{% url 'estante:cadastro-livro' %}" class='ui fluid form'>
+                    {% else %}
+                        <form method="POST" action="{% url 'estante:edita-livro' id %}" class='ui fluid form'>
+                    {% endif %}
+                    {% csrf_token %}
+
+                    <label>{{ form.id_livro.label }}</label>
+                    {{ form.id_livro }}
+                    {% if form.id_livro.errors %}
+                        {{ form.id_livro.errors }}
+                    {% endif %}<br/>
+
+                    <label>{{ form.titulo.label }}</label>
+                    {{ form.titulo }}
+                    {% if form.titulo.errors %}
+                        {{ form.titulo.errors }}
+                    {% endif %}<br/>
+
+                    <label>{{ form.autor.label }}</label>
+                    {{ form.autor }}
+                    {% if form.autor.errors %}
+                        {{ form.autor.errors }}
+                    {% endif %}<br/>
+
+                    <label>{{ form.editora.label }}</label>
+                    {{ form.editora }}
+                    {% if form.editora.errors %}
+                        {{ form.editora.errors }}
+                    {% endif %}<br/>
+
+                    <label>{{ form.ano.label }}</label>
+                    {{ form.ano }}
+                    {% if form.ano.errors %}
+                        {{ form.ano.errors }}
+                    {% endif %}<br/>
+
+                    <button type="submit" class="ui blue button">Salvar</button>
+                    <br>
+                    </form>
+                </div>
+            </article>
+        </section>
+    {% else %}
+        <h4>{% trans "Você não esta logado no sistema" %}</h4>
+        <a href="{% url 'estante:login' %}">Login</a><br/>
+    {% endif %}
+
+{% endblock content %}

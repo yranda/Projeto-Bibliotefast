@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block content %}
+    <section class="ui container">
+        <article class="ui grid">
+            <div class="two wide column"></div>
+            <div class="twelve wide column" id="margem">
+    {% if user.is_authenticated %}
+        <h2> {{ livro.titulo }} </h2>
+        <h5> Editora: {{ livro.editora }}</h5>
+        <h5> Autor: {{ livro.autor }}</h5>
+        <h5> Ano: {{ livro.ano }}</h5>
+        <h5> Dono do livro: {{ livro.dono }}</h5>
+
+
+        {% if livro.dono.id == user.id and not emprestimo %}
+            {% if livro.status == True %}
+                <h5>Status: Ativo</h5>
+            {% endif %}
+            {% if livro.status == False %}
+                <h5>Status: Desativado</h5>
+            {% endif %}
+
+            <a href="{% url 'estante:edita-livro' livro.id %}">Editar</a><br/>
+            <form method="POST" action="{% url 'estante:esconder_livro' livro.id %}" class='ui form'>
+                <button type="submit" class="ui verde button">Mudar Status</button>
+                {% csrf_token %}
+            </form>
+        {% endif %}
+
+        {% if livro.dono.id != user.id %}
+            {% if not emprestimo and livro.status == True %}
+                <a href="{% url 'estante:emprestimo' livro.id %}">Emprestar</a><br/>
+            {% endif %}
+            {% if emprestimo.pegou_emprestado_id == user.id %}
+                <a href="{% url 'estante:devolver_livro' emprestimo.id%}">Devolver</a><br/>
+
+            {% endif %}
+
+        {% endif %}
+
+        <a href="{% url 'estante:lista_livros' %}">Voltar aos livros</a>
+    {% else %}
+        <h4>Você não esta logado no sistema</h4>
+        <a href="{% url 'estante:login' %}">Login</a><br/>
+    {% endif %}
+    </div>
+        </article>
+    </section>
+{% endblock content %}

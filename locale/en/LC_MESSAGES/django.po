@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-29 13:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: estante/forms/livro.py:10 estante/forms/livro.py:39
+#: estante/templates/lista_livros.html:40
+msgid "Título"
+msgstr "Title"
+
+#: estante/forms/livro.py:11 estante/forms/livro.py:40
+#: estante/templates/lista_livros.html:41
+msgid "Autor"
+msgstr "Author"
+
+#: estante/forms/livro.py:12 estante/forms/livro.py:41
+msgid "Editora"
+msgstr "Publishing company"
+
+#: estante/forms/livro.py:13 estante/forms/livro.py:42
+msgid "Ano"
+msgstr "Year"
+
+#: estante/forms/livro.py:28
+msgid "ISBN já utilizado"
+msgstr "ISBN already taken"
+
+#: estante/forms/livro.py:30
+msgid "ISBN precisa de 13 dígitos"
+msgstr "ISBN must have 13 digits"
+
+#: estante/forms/pessoa.py:13 estante/forms/pessoa.py:39
+#: estante/templates/perfil.html:23
+msgid "Endereço"
+msgstr "Address"
+
+#: estante/forms/pessoa.py:14 estante/forms/pessoa.py:40
+#: estante/templates/perfil.html:25
+msgid "Telefone"
+msgstr "Phone number"
+
+#: estante/forms/pessoa.py:28
+msgid "Usuário já existe"
+msgstr "User already taken"
+
+#: estante/forms/pessoa.py:72
+msgid "Usuário ou senha incorretos"
+msgstr "User or password wrong"
+
+#: estante/forms/validators/livro_validator.py:9
+msgid "Data indisponível"
+msgstr "Invalid date"
+
+#: estante/forms/validators/pessoa_validator.py:12
+msgid "Usuário não existe"
+msgstr "User does not exist"
+
+#: estante/forms/validators/pessoa_validator.py:20
+msgid "CPF deve conter 11 dígitos!"
+msgstr "CPF must have 11 digits"
+
+#: estante/forms/validators/pessoa_validator.py:25
+msgid "Nome não pode conter números"
+msgstr "Name can't have numbers"
+
+#: estante/templates/404.html:4
+msgid "ERRO 404 - Página não encontrada"
+msgstr "ERROR 404 - Page not found"
+
+#: estante/templates/404.html:9
+msgid "Voltar à Página Inicial"
+msgstr "Back to initial page"
+
+#: estante/templates/alterar_status.html:5
+msgid "Ativar usuário inativo"
+msgstr "Activate inactive user"
+
+#: estante/templates/alterar_status.html:32
+msgid "Ativar"
+msgstr "Activate"
+
+#: estante/templates/base.html:30
+msgid "Cadastrar Livro"
+msgstr "Register a book"
+
+#: estante/templates/base.html:31
+msgid "Consultar Livro"
+msgstr "Search for a book"
+
+#: estante/templates/base.html:33 estante/templates/cad_pessoa.html:6
+#, fuzzy
+#| msgid "Cadastrar Usuário"
+msgid "Editar Usuário"
+msgstr "Edit User"
+
+#: estante/templates/base.html:34
+msgid "Meu Perfil"
+msgstr "My Profile"
+
+#: estante/templates/base.html:35
+msgid "Sair"
+msgstr "Logout"
+
+#: estante/templates/base.html:37
+msgid "Cadastre-se"
+msgstr "Register"
+
+#: estante/templates/cad_livro.html:6
+msgid "Cadastro de Livro"
+msgstr "Register a book"
+
+#: estante/templates/cad_livro.html:8
+msgid "Edição de Livro"
+msgstr "Edition of a book"
+
+#: estante/templates/cad_livro.html:64
+msgid "Você não esta logado no sistema"
+msgstr "You're not logged in"
+
+#: estante/templates/cad_pessoa.html:72
+msgid "Salvar"
+msgstr "Save"
+
+#: estante/templates/index.html:47
+msgid " Entrar "
+msgstr "Login"
+
+#: estante/templates/index.html:49
+msgid ""
+" Ainda não tem conta? Crie uma agora\n"
+"                            mesmo! "
+msgstr "Still doesn't have an account? Register right now!"
+
+#: estante/templates/lista_livros.html:5
+msgid "Listagem de Livros"
+msgstr "List of books"
+
+#: estante/templates/lista_livros.html:13
+msgid "Meus livros"
+msgstr "My books"
+
+#: estante/templates/lista_livros.html:16
+msgid "Título: "
+msgstr "Title: "
+
+#: estante/templates/lista_livros.html:21
+msgid "Livros Emprestados"
+msgstr "Borrowed books"
+
+#: estante/templates/lista_livros.html:32
+msgid "Procurar livro"
+msgstr "Serach for a book"
+
+#: estante/templates/lista_livros.html:42
+msgid "Dono"
+msgstr "Owner"
+
+#: estante/templates/lista_livros.html:45
+msgid "Pesquisa"
+msgstr "Search"
+
+#: estante/templates/lista_livros.html:50
+msgid "Você não está logado no sistema"
+msgstr "You're not logged in"
+
+#: estante/templates/perfil.html:17
+msgid "Nome Completo"
+msgstr "Full name"
+
+#: estante/views/pessoa.py:50
+msgid "Informações alteradas com sucesso!"
+msgstr "Informations successfully edited"
+
+#: estante/views/pessoa.py:107
+msgid "Login efetuado com sucesso!"
+msgstr "Logged in successfully!"
+
+#: estante/views/pessoa.py:138
+msgid "Usuario ou senha incorretos"
+msgstr "User or password incorrects"
+
+#: projeto/settings.py:101
+msgid "English"
+msgstr ""
+
+#: projeto/settings.py:102
+msgid "Brazilian Portuguese"
+msgstr ""

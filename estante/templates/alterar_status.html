@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+
+    <h1>{% trans "Ativar usuário inativo" %}</h1>
+
+    <section class="ui container">
+        <article class="ui grid">
+            <div class="two wide column"></div>
+            <div class="twelve wide column" id="margem">
+
+                {% if msg %}
+                    <p>{{ msg }}</p>
+                {% endif %}
+
+                <form method="POST" action="{% url 'estante:ativar' %}" class='ui fluid form'>
+
+                    {% csrf_token %}
+
+                    {% if form.username.errors %}
+                        {{ form.username.errors }}
+                    {% endif %}
+                    <label>{{ form.username.label }}</label>
+                    {{ form.username }} <br/>
+
+                    {% if form.password.errors %}
+                        {{ form.password.errors }}
+                    {% endif %}
+                    <label>{{ form.password.label }}</label>
+                    {{ form.password }} <br/>
+
+                    <button type="submit" class="ui blue button">{% trans "Ativar" %}</button>
+                    <br/>
+                </form>
+            </div>
+        </article>
+    </section>
+{% endblock content %}

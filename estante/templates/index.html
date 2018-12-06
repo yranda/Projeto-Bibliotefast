@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+{% block content %}
+
+<section class="ui container">
+    <article class="ui grid">
+        <div class="two wide column"></div>
+        <div class="twelve wide column centered">
+
+        <h1>
+            Bibliotefast
+        </h1>
+                <br/>
+                <h2>Login</h2>
+                <form method="POST" action="{% url 'estante:login' %}" class='ui fluid form'>
+                    {% csrf_token %}
+
+                    {% if msg %}
+                        <div>{{ msg }}</div>
+                    {% endif %}
+
+                <br/>
+                    <div class="field" id="preencher">
+
+                        <label>{{ form.username.label }}</label>
+                        {{ form.username }}
+                        {% if form.username.errors %}
+                            {{ form.username.errors }}
+                        {% endif %}
+                    </div>
+                    <br/>
+
+                    <div class="field" id="preencher">
+                        <label>{{ form.password.label }}</label>
+                        {{ form.password }}
+                        {% if form.errors %}
+                            {{ form.non_field_errors }}
+                        {% endif %}
+                    </div>
+
+
+            <div class="two wide column"></div>
+         <div class="twelve wide column centered">
+                    <div align="center">
+                        <button type="submit" class="ui blue button">{% blocktrans %} Entrar {% endblocktrans %}</button>
+                        <br/><br/>
+                        <a href="{% url 'estante:cadastro-pessoa' %}">{% blocktrans %} Ainda não tem conta? Crie uma agora
+                            mesmo! {% endblocktrans %}</a>
+                    </div>
+                </form>
+            </div>
+        </article>
+    </section>
+
+{% endblock content %}

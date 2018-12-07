@@ -11,24 +11,24 @@ from django.utils.translation import ugettext_lazy as _
 
 class CadastraPessoa(View):
     template = 'cad_pessoa.html'
+    template2 = 'perfil.html'
+    template3 = 'index.html'
 
-    def get(self, request, id=None):
+    def get(self, request):
         id = request.user.id
         if id:
             pessoa = Pessoa.objects.get(pk=id)
             form = PessoaEditForm(instance=pessoa)
         else:
             form = PessoaForm()
-            #print("----------")
-            #print(form)
+        return render(request, self.template, {'form': form})
 
-        return render(request, self.template, {'form': form, 'id': id})
-
-    def post(self, request, id=None):
+    def post(self, request):
         id = request.user.id
         if id:
             pessoa = Pessoa.objects.get(pk=id)
             form = PessoaEditForm(instance=pessoa, data=request.POST)
+            print (form)
             if form.is_valid():
                 form = form.save(commit=False)
                 form.set_password(request.POST['password'])
@@ -43,12 +43,14 @@ class CadastraPessoa(View):
                 request.session['endereco'] = pessoa.endereco
                 request.session['telefone'] = pessoa.telefone
                 request.session['email'] = pessoa.email
+                request.session['first_name'] = pessoa.first_name
                 request.session.set_expiry(6000)
                 request.session.get_expire_at_browser_close()
 
-                return redirect('/perfil/', {'msg': _('Informações alteradas com sucesso!')})
+                return render(request, self.template2, {'msg': _('Informações alteradas com sucesso!')})
             else:
-                return render(request, self.template, {'form': form, 'id': id})
+                print(form.errors)
+            return render(request, self.template, {'form': form})
         else:
             form = PessoaForm(data=request.POST)
             if form.is_valid():
@@ -57,9 +59,8 @@ class CadastraPessoa(View):
                 pessoa.is_active = True
                 pessoa.save()
 
-                msg = _('Usuário cadastrado com sucesso!')
-
-                return redirect('/', {'msg': msg})
+                return render(request, self.template3, {'form': LoginForm})
+        return render(request, self.template, {'form': form})
 
 
 class Login(View):
@@ -80,8 +81,8 @@ class Login(View):
             form = LoginForm(data=request.POST)
         if form.is_valid() == False:
             return render(request, self.template, {'form': form})
-        username = form.save(commit=False).username
-        password = form.save(commit=False).password
+        username = form.save(commit = False).username
+        password = form.save(commit = False).password
 
         user = authenticate(username=username, password=password)
         if user:
@@ -100,6 +101,7 @@ class Login(View):
                 request.session['endereco'] = pessoa.endereco
                 request.session['telefone'] = pessoa.telefone
                 request.session['email'] = pessoa.email
+                request.session['first_name'] = pessoa.first_name
                 request.session.set_expiry(6000)
                 request.session.get_expire_at_browser_close()
                 return render(request, self.template2, {'msg': _('Login efetuado com sucesso!')})
@@ -119,7 +121,7 @@ class Alterar_status(View):
             ativo.is_active = False
             ativo.save()
             logout(request)
-            return redirect('/')
+            return redirect('/estante/')
         else:
             username = request.POST['username']
             password = request.POST['password']
@@ -129,8 +131,8 @@ class Alterar_status(View):
                 if ativo.is_active is False:
                     ativo.is_active = True
                     ativo.save()
-                    return render(request, self.template2, {'msg': 'usuario ativado com sucesso!','form':LoginForm})
+                    return render(request, self.template2, {'msg': _('Usuário ativado com sucesso!'),'form':LoginForm})
                 else:
-                    return render(request, self.template, {'msg': 'Este usuario já esta ativo','form':LoginForm})
+                    return render(request, self.template, {'msg': _('Este usuário já está ativo'),'form':LoginForm})
             else:
-                return render(request, self.template, {'msg': _('Usuario ou senha incorretos'),'form':LoginForm})
+                return render(request, self.template, {'msg': _('Usuário ou senha incorretos'),'form':LoginForm})

@@ -14,21 +14,20 @@ class CadastraPessoa(View):
     template2 = 'perfil.html'
     template3 = 'index.html'
 
-    def get(self, request):
+    def get(self, request, id=None):
         id = request.user.id
         if id:
             pessoa = Pessoa.objects.get(pk=id)
             form = PessoaEditForm(instance=pessoa)
         else:
             form = PessoaForm()
-        return render(request, self.template, {'form': form})
+        return render(request, self.template, {'form': form,  'id': id})
 
-    def post(self, request):
+    def post(self, request, id=None):
         id = request.user.id
         if id:
             pessoa = Pessoa.objects.get(pk=id)
             form = PessoaEditForm(instance=pessoa, data=request.POST)
-            print (form)
             if form.is_valid():
                 form = form.save(commit=False)
                 form.set_password(request.POST['password'])
@@ -47,10 +46,10 @@ class CadastraPessoa(View):
                 request.session.set_expiry(6000)
                 request.session.get_expire_at_browser_close()
 
-                return render(request, self.template2, {'msg': _('Informações alteradas com sucesso!')})
+                return render(request, self.template2, {'msg': _('Informações alteradas com sucesso!'), 'id': id})
             else:
-                print(form.errors)
-            return render(request, self.template, {'form': form})
+                return render(request, self.template, {'form': form, 'id': id})
+
         else:
             form = PessoaForm(data=request.POST)
             if form.is_valid():
@@ -59,8 +58,8 @@ class CadastraPessoa(View):
                 pessoa.is_active = True
                 pessoa.save()
 
-                return render(request, self.template3, {'form': LoginForm})
-        return render(request, self.template, {'form': form})
+                return render(request, self.template3, {'form': LoginForm, 'msg': _('Usuário cadastrado com sucesso!')})
+        return render(request, self.template, {'form': form, 'id': id})
 
 
 class Login(View):
@@ -104,7 +103,7 @@ class Login(View):
                 request.session['first_name'] = pessoa.first_name
                 request.session.set_expiry(6000)
                 request.session.get_expire_at_browser_close()
-                return render(request, self.template2, {'msg': _('Login efetuado com sucesso!')})
+                return render(request, self.template2, {'msg': _('Login efetuado com sucesso!'), 'id': id})
         else:
             return render(request, self.template, {'form': LoginForm})
 
@@ -113,7 +112,7 @@ class Alterar_status(View):
     template2 = 'index.html'
 
     def get(self, request):
-        return render(request, self.template, {'form':LoginForm})
+        return render(request, self.template, {'form':LoginForm, 'id': id})
 
     def post(self, request):
         if request.user.id:
@@ -131,8 +130,8 @@ class Alterar_status(View):
                 if ativo.is_active is False:
                     ativo.is_active = True
                     ativo.save()
-                    return render(request, self.template2, {'msg': _('Usuário ativado com sucesso!'),'form':LoginForm})
+                    return render(request, self.template2, {'msg': _('Usuário ativado com sucesso!'),'form':LoginForm, 'id': id})
                 else:
-                    return render(request, self.template, {'msg': _('Este usuário já está ativo'),'form':LoginForm})
+                    return render(request, self.template, {'msg': _('Este usuário já está ativo'),'form':LoginForm, 'id': id})
             else:
-                return render(request, self.template, {'msg': _('Usuário ou senha incorretos'),'form':LoginForm})
+                return render(request, self.template, {'msg': _('Usuário ou senha incorretos'),'form':LoginForm, 'id': id})

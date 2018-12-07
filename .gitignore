@@ -14,6 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
+.idea/
 lib/
 lib64/
 parts/
@@ -46,10 +47,6 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
-
-# Translations
-*.mo
-*.pot
 
 # Django stuff:
 *.log

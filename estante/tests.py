@@ -1,9 +1,10 @@
 ##############from django.core.exceptions import ValidationError ##Essa Porcaria ja não estava sendo usada no deles
 from django.test import TestCase
 
-from .models.pessoa import validate_cpf, validate_phone
+from models.pessoa import validate_cpf, validate_phone
 from django.core.exceptions import ValidationError
 from django.test.client import Client
+
 
 #class Usuario_teste(TestCase):
 

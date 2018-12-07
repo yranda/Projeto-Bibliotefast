@@ -36,7 +36,7 @@
             <a class="item" href="{% url 'estante:cadastro-livro' %}">{% trans "Cadastrar Livro" %}</a>
             <a class="item" href="{% url 'estante:lista_livros' %}">{% trans "Consultar Livro" %}</a>
             <!--<a class="item" href="#">Empréstimo</a>-->
-            <a class="item" href="{% url 'estante:cadastro-pessoa' %}">{% trans "Editar Usuário" %}</a>
+            <a class="item" href="{% url 'estante:edita-pessoa' request.user.id %}">{% trans "Editar Usuário" %}</a>
             <a class="item" href="{% url 'estante:perfil' %}">{% trans "Meu Perfil" %}</a>
             <a class="item" href="{% url 'estante:logout' %}">{% trans "Sair" %}</a>
         {% else %}

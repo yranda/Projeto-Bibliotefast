@@ -73,10 +73,10 @@ class CadastraLivro(View, Pessoa):
                 livro.dono = Pessoa.objects.get(pk=request.user.id)
                 livro.status = True
                 livro.save()
-
-            msg = _('Livro cadastrado com sucesso!')
+                msg = _('Livro cadastrado com sucesso!')
+            else:
+                msg = _('falha no cadastro')
             form_limpo = LivroForm()
-
         return render(request, self.template, {'msg': msg, 'form': form_limpo})
 
 class Alterar_status_livro(View):

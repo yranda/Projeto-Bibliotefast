@@ -5,7 +5,7 @@ Projeto inspirado no sistema Pergamum do IFC, no entanto, é tão ruim quanto! :
 ###### python manage.py makemigrations
 ###### python manage.py migrate
 
-# Comando para rodar os testes:
+#### Comando para rodar os testes:
 ###### python manage.py test
 
-# Para rodar o populate de livro é necessário ter criado um usuário no sistema antes
+#### Para rodar o populate de livro é necessário ter criado um usuário no sistema antes

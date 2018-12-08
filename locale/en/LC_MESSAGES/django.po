@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-29 13:16+0000\n"
+"POT-Creation-Date: 2018-12-08 18:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgstr "Phone number"
 msgid "Usuário já existe"
 msgstr "User already taken"
 
-#: estante/forms/pessoa.py:72
+#: estante/forms/pessoa.py:72 estante/views/pessoa.py:137
 msgid "Usuário ou senha incorretos"
 msgstr "User or password wrong"
 
@@ -77,13 +77,23 @@ msgstr "CPF must have 11 digits"
 msgid "Nome não pode conter números"
 msgstr "Name can't have numbers"
 
+#: estante/models/pessoa.py:10
+#, python-format
+msgid "%(value)s não é válido"
+msgstr "%(value)s is not valid"
+
+#: estante/models/pessoa.py:19
+#, python-format
+msgid ""
+"%(value)s não é válido, por favor siga o exemplo: (xx) 9 XXXX-XXXX or XXXX-"
+"XXXX"
+msgstr ""
+"%(value)s is not valid, please follow the example: (xx) 9 XXXX-XXXX or XXXX-"
+"XXXX"
+
 #: estante/templates/404.html:4
 msgid "ERRO 404 - Página não encontrada"
 msgstr "ERROR 404 - Page not found"
-
-#: estante/templates/404.html:9
-msgid "Voltar à Página Inicial"
-msgstr "Back to initial page"
 
 #: estante/templates/alterar_status.html:5
 msgid "Ativar usuário inativo"
@@ -93,29 +103,29 @@ msgstr "Activate inactive user"
 msgid "Ativar"
 msgstr "Activate"
 
-#: estante/templates/base.html:30
+#: estante/templates/base.html:36
 msgid "Cadastrar Livro"
 msgstr "Register a book"
 
-#: estante/templates/base.html:31
+#: estante/templates/base.html:37
 msgid "Consultar Livro"
 msgstr "Search for a book"
 
-#: estante/templates/base.html:33 estante/templates/cad_pessoa.html:6
+#: estante/templates/base.html:39 estante/templates/cad_pessoa.html:7
 #, fuzzy
 #| msgid "Cadastrar Usuário"
 msgid "Editar Usuário"
 msgstr "Edit User"
 
-#: estante/templates/base.html:34
+#: estante/templates/base.html:40
 msgid "Meu Perfil"
 msgstr "My Profile"
 
-#: estante/templates/base.html:35
+#: estante/templates/base.html:41
 msgid "Sair"
 msgstr "Logout"
 
-#: estante/templates/base.html:37
+#: estante/templates/base.html:43
 msgid "Cadastre-se"
 msgstr "Register"
 
@@ -131,15 +141,21 @@ msgstr "Edition of a book"
 msgid "Você não esta logado no sistema"
 msgstr "You're not logged in"
 
-#: estante/templates/cad_pessoa.html:72
+#: estante/templates/cad_pessoa.html:11
+#, fuzzy
+#| msgid "Cadastrar Usuário"
+msgid "Cadastrar Usuário"
+msgstr "Edit User"
+
+#: estante/templates/cad_pessoa.html:82
 msgid "Salvar"
 msgstr "Save"
 
-#: estante/templates/index.html:47
+#: estante/templates/index.html:46
 msgid " Entrar "
 msgstr "Login"
 
-#: estante/templates/index.html:49
+#: estante/templates/index.html:48
 msgid ""
 " Ainda não tem conta? Crie uma agora\n"
 "                            mesmo! "
@@ -177,21 +193,55 @@ msgstr "Search"
 msgid "Você não está logado no sistema"
 msgstr "You're not logged in"
 
+#: estante/templates/perfil.html:8
+#, fuzzy
+#| msgid "Meu Perfil"
+msgid "Perfil"
+msgstr "My Profile"
+
 #: estante/templates/perfil.html:17
 msgid "Nome Completo"
 msgstr "Full name"
 
-#: estante/views/pessoa.py:50
+#: estante/views/livro.py:76
+#, fuzzy
+#| msgid "Login efetuado com sucesso!"
+msgid "Livro cadastrado com sucesso!"
+msgstr "Logged in successfully!"
+
+#: estante/views/livro.py:78
+msgid "Erro(s) encontrado(s)"
+msgstr "Error(s) found"
+
+#: estante/views/pessoa.py:49
 msgid "Informações alteradas com sucesso!"
 msgstr "Informations successfully edited"
 
-#: estante/views/pessoa.py:107
+#: estante/views/pessoa.py:61
+#, fuzzy
+#| msgid "Login efetuado com sucesso!"
+msgid "Usuário cadastrado com sucesso!"
+msgstr "Logged in successfully!"
+
+#: estante/views/pessoa.py:94
+msgid "Este usuário está inativo, deseja ativar?"
+msgstr "This user is inactive, do you want to activate?"
+
+#: estante/views/pessoa.py:106
 msgid "Login efetuado com sucesso!"
 msgstr "Logged in successfully!"
 
-#: estante/views/pessoa.py:138
-msgid "Usuario ou senha incorretos"
-msgstr "User or password incorrects"
+#: estante/views/pessoa.py:133
+#, fuzzy
+#| msgid "Login efetuado com sucesso!"
+msgid "Usuário ativado com sucesso!"
+msgstr "Logged in successfully!"
+
+#: estante/views/pessoa.py:135
+#, fuzzy
+#| msgid "Usuário já existe"
+msgid "Este usuário já está ativo"
+msgstr "User already taken"
 
 #: projeto/settings.py:101
 msgid "English"
@@ -200,3 +250,12 @@ msgstr ""
 #: projeto/settings.py:102
 msgid "Brazilian Portuguese"
 msgstr ""
+
+#~ msgid "Falha no cadastro"
+#~ msgstr "Failure"
+
+#~ msgid "Voltar à Página Inicial"
+#~ msgstr "Back to initial page"
+
+#~ msgid "Usuario ou senha incorretos"
+#~ msgstr "User or password incorrects"

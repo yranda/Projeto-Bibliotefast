@@ -75,9 +75,9 @@ class CadastraLivro(View, Pessoa):
                 livro.save()
                 msg = _('Livro cadastrado com sucesso!')
             else:
-                msg = _('falha no cadastro')
-            form_limpo = LivroForm()
-        return render(request, self.template, {'msg': msg, 'form': form_limpo})
+                msg = _('Erro(s) encontrado(s)')
+        return render(request, self.template, {'form': form, 'msg': msg})
+
 
 class Alterar_status_livro(View):
 

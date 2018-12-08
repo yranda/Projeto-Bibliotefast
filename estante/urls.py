@@ -6,7 +6,7 @@ import django.contrib.auth.views
 
 
 urlpatterns = [
-    url(r'^$', Login.as_view(), name='login'),
+    url(r'^login/$', Login.as_view(), name='login'),
     url(r'^cad_pessoa/$', CadastraPessoa.as_view(), name='cadastro-pessoa'),
     url(r'^cad_pessoa/(?P<id>\d+)/$', CadastraPessoa.as_view(), name='edita-pessoa'),
     url(r'^logout/$', django.contrib.auth.views.logout, {'next_page': '/'}, name='logout'),

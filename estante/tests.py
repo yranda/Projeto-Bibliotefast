@@ -1,6 +1,5 @@
 from django.test import TestCase
-
-from estante.models import Pessoa
+from .models.pessoa import Pessoa, validate_cpf, validate_phone
 #from django.core.exceptions import ValidationError
 from django.test.client import Client
 
@@ -19,7 +18,7 @@ class Usuario_teste(TestCase):
     def test_login(self):
         c = Client()
         response = c.post('/login/', {'username': '@#$', 'password': '23'})
-        self.assertEquals(response.status_code, 404)
+        self.assertEquals(response.status_code, 302)
         print(response.status_code)
         response = c.get('/customer/details/')
-        #response.content
+        response.content

@@ -1,0 +1,14 @@
+quando tem module na frente
+OBSERVAÇAO ISSO AQUI add\_insumos
+EQUIVALE A add_insumos
+
+quando ta em automodule em baixo coloca normal
+
+
+projeto.settings module ----> aqui to falando como em cima
+-----------------------
+
+.. automodule:: projeto.settings --> aqui como em baixo
+   :members:
+   :undoc-members:
+   :show-inheritance:

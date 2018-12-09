@@ -10,9 +10,6 @@ Welcome to Bibliotefast's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-.. automodule:: io
-   :members:
-
 Indices and tables
 ==================
 

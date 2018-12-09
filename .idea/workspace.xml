@@ -2,547 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6de4824-e471-4dee-a29c-9a5c4d41ca42" name="Default Changelist" comment="att">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/locale/en/LC_MESSAGES/django.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/book-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/iconelivro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/avatar/nan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/avatar/tom.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/wireframe/centered-paragraph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/wireframe/image-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/wireframe/image-text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/wireframe/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/wireframe/media-paragraph-alt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/wireframe/media-paragraph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/wireframe/paragraph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/wireframe/short-paragraph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/wireframe/square-image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/wireframe/text-image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/images/wireframe/white-image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/embed.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/assets/fonts/icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/assets/fonts/icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/assets/fonts/icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/bootstrap3/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/chubby/collections/menu.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/colored/modules/checkbox.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/brand-icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/brand-icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/brand-icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/brand-icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/outline-icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/outline-icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/outline-icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/outline-icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/images/flags.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/collections/table.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/assets/fonts/octicons-local.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/assets/fonts/octicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/assets/fonts/octicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/gmail/collections/message.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/assets/fonts/icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/assets/fonts/icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/assets/fonts/icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/assets/fonts/icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/globals/site.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/round/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/.csscomb.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/.csslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/.github/ISSUE_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/.github/PULL_REQUEST_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/.github/stale.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/RELEASE-NOTES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/library/iframe-content.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/library/iframe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/library/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/assets/show-examples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/attached.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/bootstrap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/components/button.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/components/card.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/components/input.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/components/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/components/site.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/components/table.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/fixed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/grid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/homepage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/responsive.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/sticky.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/examples/theming.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/semantic.json.example" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/collections/breadcrumb.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/collections/breadcrumb.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/collections/form.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/collections/form.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/collections/grid.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/collections/grid.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/collections/menu.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/collections/menu.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/collections/message.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/collections/message.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/collections/table.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/collections/table.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/container.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/container.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/divider.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/divider.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/flag.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/flag.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/header.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/header.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/icon.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/icon.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/image.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/image.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/input.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/input.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/label.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/label.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/list.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/list.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/loader.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/loader.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/rail.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/rail.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/reveal.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/reveal.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/segment.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/segment.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/step.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/elements/step.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/globals/reset.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/globals/reset.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/globals/site.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/globals/site.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/accordion.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/accordion.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/chatroom.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/chatroom.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/checkbox.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/checkbox.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/dimmer.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/dimmer.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/dropdown.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/dropdown.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/embed.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/modal.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/modal.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/nag.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/nag.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/popup.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/popup.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/progress.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/progress.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/rating.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/rating.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/search.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/search.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/shape.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/shape.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/sidebar.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/sidebar.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/sticky.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/sticky.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/tab.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/tab.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/transition.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/modules/transition.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/views/ad.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/views/ad.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/views/card.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/views/card.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/views/comment.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/views/comment.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/views/feed.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/views/feed.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/views/item.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/views/item.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/views/statistic.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/_site/views/statistic.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/behaviors/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/behaviors/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/behaviors/visibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/collections/breadcrumb.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/collections/form.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/collections/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/collections/menu.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/collections/message.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/collections/table.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/button.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/container.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/divider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/flag.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/header.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/icon.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/image.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/input.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/label.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/loader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/rail.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/reveal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/segment.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/elements/step.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/globals/reset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/globals/site.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/globals/site.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/accordion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/accordion.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/checkbox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/dimmer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/dimmer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/dropdown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/embed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/embed.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/modal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/nag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/nag.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/popup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/popup.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/progress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/progress.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/rating.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/rating.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/search.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/shape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/shape.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/sidebar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/sidebar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/sticky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/sticky.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/tab.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/modules/transition.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/views/ad.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/views/card.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/views/comment.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/views/feed.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/views/item.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/definitions/views/statistic.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/semantic.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/theme.config.example" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/amazon/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/amazon/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/amazon/globals/site.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/assets/fonts/icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/collections/table.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/collections/table.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/elements/icon.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/elements/icon.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/elements/step.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/elements/step.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/globals/reset.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/globals/reset.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/modules/progress.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/modules/progress.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/views/card.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/basic/views/card.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/bookish/elements/header.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/bookish/elements/header.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/bootstrap3/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/chubby/collections/form.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/chubby/collections/form.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/chubby/collections/menu.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/chubby/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/chubby/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/chubby/elements/header.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/chubby/elements/header.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/chubby/modules/accordion.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/chubby/modules/accordion.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/chubby/views/comment.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/chubby/views/comment.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/classic/collections/table.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/classic/collections/table.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/classic/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/classic/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/classic/elements/header.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/classic/elements/header.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/classic/modules/progress.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/classic/modules/progress.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/classic/views/card.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/classic/views/card.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/colored/modules/checkbox.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/brand-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/assets/fonts/outline-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/collections/breadcrumb.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/collections/breadcrumb.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/collections/form.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/collections/form.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/collections/grid.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/collections/grid.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/collections/menu.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/collections/menu.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/collections/message.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/collections/message.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/collections/table.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/container.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/container.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/divider.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/divider.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/flag.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/flag.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/header.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/header.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/icon.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/icon.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/image.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/image.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/input.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/input.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/label.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/label.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/list.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/list.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/loader.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/loader.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/rail.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/rail.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/reveal.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/reveal.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/segment.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/segment.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/step.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/elements/step.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/globals/reset.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/globals/reset.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/globals/site.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/globals/site.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/accordion.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/accordion.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/chatroom.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/chatroom.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/checkbox.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/checkbox.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/dimmer.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/dimmer.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/dropdown.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/dropdown.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/embed.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/embed.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/modal.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/modal.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/nag.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/nag.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/popup.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/popup.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/progress.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/progress.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/rating.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/rating.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/search.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/search.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/shape.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/shape.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/sidebar.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/sidebar.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/sticky.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/sticky.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/tab.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/tab.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/transition.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/modules/transition.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/views/ad.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/views/ad.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/views/card.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/views/card.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/views/comment.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/views/comment.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/views/feed.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/views/feed.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/views/item.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/views/item.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/views/statistic.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/default/views/statistic.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/duo/elements/loader.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/duo/elements/loader.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/fixed-width/collections/grid.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/fixed-width/collections/grid.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/fixed-width/modules/modal.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/fixed-width/modules/modal.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/flat/collections/form.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/flat/collections/form.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/flat/globals/site.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/flat/globals/site.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/assets/fonts/octicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/collections/breadcrumb.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/collections/form.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/collections/form.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/collections/grid.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/collections/menu.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/collections/menu.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/collections/message.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/collections/message.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/collections/table.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/elements/header.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/elements/icon.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/elements/icon.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/elements/image.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/elements/input.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/elements/input.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/elements/label.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/elements/label.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/elements/segment.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/elements/segment.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/elements/step.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/elements/step.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/globals/site.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/modules/dropdown.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/modules/dropdown.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/github/modules/popup.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/gmail/collections/message.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/instagram/views/card.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/instagram/views/card.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/assets/fonts/icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/collections/menu.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/collections/menu.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/elements/header.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/elements/header.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/elements/icon.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/elements/icon.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/globals/site.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/modules/dropdown.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/modules/dropdown.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/modules/modal.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/material/modules/modal.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/pulsar/elements/loader.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/pulsar/elements/loader.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/raised/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/raised/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/resetcss/globals/reset.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/resetcss/globals/reset.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/round/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/rtl/globals/site.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/rtl/globals/site.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/striped/modules/progress.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/striped/modules/progress.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/timeline/views/feed.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/timeline/views/feed.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/twitter/elements/button.overrides" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/src/themes/twitter/elements/button.variables" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/admin/components/create.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/admin/components/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/admin/components/update.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/admin/distributions/create.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/admin/distributions/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/admin/distributions/update.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/admin/publish.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/admin/register.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/admin/release.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/check-install.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/clean.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/collections/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/collections/admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/collections/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/collections/internal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/collections/rtl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/admin/github.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/admin/oauth.example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/admin/release.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/admin/templates/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/admin/templates/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/admin/templates/component-package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/admin/templates/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/admin/templates/css-package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/admin/templates/less-package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/admin/templates/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/docs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/npm/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/project/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/project/install.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/project/release.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/tasks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/config/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/docs/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/docs/metadata.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/docs/serve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/install.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/rtl/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/rtl/watch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/tasks/watch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/fixtures/accordion.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/fixtures/checkbox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/fixtures/dropdown.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/fixtures/modal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/fixtures/popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/fixtures/rating.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/fixtures/shape.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/fixtures/sidebar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/fixtures/tab.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/fixtures/transition.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/fixtures/video.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/helpers/jasmine-clog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/helpers/jasmine-jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/helpers/jasmine-sinon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/helpers/jquery-events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/helpers/sinon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/meteor/assets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/meteor/fonts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/modules/accordion.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/modules/checkbox.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/modules/dropdown.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/modules/modal.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/modules/module.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/modules/popup.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/modules/search.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/modules/shape.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/modules/sidebar.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/modules/tab.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/modules/transition.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/semantic/test/modules/video.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/biblio.iml" afterPath="$PROJECT_DIR$/.idea/biblio.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estante/models/__init__.py" afterPath="$PROJECT_DIR$/estante/models/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estante/tests.py" afterPath="$PROJECT_DIR$/estante/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estante/urls.py" afterPath="$PROJECT_DIR$/estante/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estante/views/livro.py" afterPath="$PROJECT_DIR$/estante/views/livro.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locale/en/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/en/LC_MESSAGES/django.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/populate_l.csv" afterPath="$PROJECT_DIR$/populate_l.csv" />
+      <change beforePath="$PROJECT_DIR$/.idea/biblio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/biblio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estante/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estante/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -554,7 +22,6 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FUSProjectUsageTrigger">
     <session id="1449949529">
       <usages-collector id="statistics.lifecycle.project">
@@ -621,101 +88,77 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-900916337">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Makefile" value="1" />
+          <entry key="py" value="6" />
+          <entry key="rst" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="6" />
+          <entry key="ReST" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="99" />
+          <entry key="rst" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="99" />
+          <entry key="ReST" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/estante/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="django.po" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/locale/en/LC_MESSAGES/django.po">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="213" column="22" lean-forward="false" selection-start-line="213" selection-start-column="22" selection-end-line="213" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="populate_livro.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/populate_livro.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="populate_l.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/populate_l.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="58" lean-forward="true" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="livro.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/estante/views/livro.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="77" column="48" lean-forward="false" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/estante/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pessoa.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/estante/models/pessoa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/estante/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projeto/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="40">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Makefile">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+              <folding>
+                <element signature="e#564#573#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/source/estante.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
     </leaf>
@@ -739,15 +182,18 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/projeto/tests.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/projeto/settings.py" />
-        <option value="$PROJECT_DIR$/estante/admin.py" />
         <option value="$PROJECT_DIR$/estante/templates/lista_livros.html" />
-        <option value="$PROJECT_DIR$/estante/models/__init__.py" />
         <option value="$PROJECT_DIR$/estante/urls.py" />
         <option value="$PROJECT_DIR$/estante/tests.py" />
         <option value="$PROJECT_DIR$/populate_l.csv" />
         <option value="$PROJECT_DIR$/estante/views/livro.py" />
         <option value="$PROJECT_DIR$/locale/en/LC_MESSAGES/django.po" />
+        <option value="$PROJECT_DIR$/docs/source/modules.rst" />
+        <option value="$PROJECT_DIR$/docs/source/conf.py" />
+        <option value="$PROJECT_DIR$/docs/source/estante.rst" />
+        <option value="$PROJECT_DIR$/estante/admin.py" />
+        <option value="$PROJECT_DIR$/estante/models/__init__.py" />
+        <option value="$PROJECT_DIR$/projeto/settings.py" />
       </list>
     </option>
   </component>
@@ -763,123 +209,52 @@
       <path value="$PROJECT_DIR$/static/semantic/tasks/config/admin/templates/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="width" value="1372" />
-    <option name="height" value="745" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="673" />
+    <option name="width" value="694" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projeto-Bibliotefast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projeto-Bibliotefast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projeto-Bibliotefast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projeto-Bibliotefast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locale" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LC_MESSAGES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projeto-Bibliotefast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projeto-Bibliotefast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="estante" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projeto-Bibliotefast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projeto-Bibliotefast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="estante" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projeto-Bibliotefast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projeto-Bibliotefast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="estante" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="Projeto-Bibliotefast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projeto-Bibliotefast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projeto-Bibliotefast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projeto-Bibliotefast" type="462c0819:PsiDirectoryNode" />
+              <item name="estante" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projeto-Bibliotefast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projeto-Bibliotefast" type="462c0819:PsiDirectoryNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projeto-Bibliotefast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projeto-Bibliotefast" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project-food" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FinalProject" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -899,7 +274,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.tests">
-    <configuration default="false" name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="biblio" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="biblio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -910,69 +306,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="biblio" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/estante/tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="biblio" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="biblio" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="biblio" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -995,9 +337,10 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
-      <method />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="biblio" type="Python.DjangoServer" factoryName="Django server">
+      <module name="biblio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -1008,164 +351,6 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="biblio" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="biblio" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="biblio" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="biblio" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="biblio" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="biblio" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="biblio" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="biblio" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="biblio" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="" />
@@ -1175,20 +360,26 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
-      <method />
+      <method v="2" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Django server.biblio" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tests" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.biblio" />
+      <item itemvalue="Python.tests" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.tests" />
+      <list>
+        <item itemvalue="Python.tests" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1219,31 +410,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1372" height="745" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2189394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22184874" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20592706" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3288364" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.56557375" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1253,252 +447,16 @@
     <MESSAGE value="att" />
     <option name="LAST_COMMIT_MESSAGE" value="att" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/estante/forms/validators/livro_validator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/templates/lista_livros.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2412">
-          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/views/pessoa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/models/pessoa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/views/livro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="77" column="22" lean-forward="false" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/forms/livro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/forms/validators/livro_validator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/templates/lista_livros.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2412">
-          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/views/pessoa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/models/pessoa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/views/pessoa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/templates/cad_pessoa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/forms/pessoa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="63" lean-forward="true" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projeto/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="127" column="14" lean-forward="false" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/models/pessoa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/views/pessoa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="134" column="21" lean-forward="true" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
-          <folding />
-        </state>
+        <state relative-caret-position="-247" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/estante/templates/cad_pessoa.html" />
     <entry file="file://$PROJECT_DIR$/estante/forms/pessoa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-887">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+        <state relative-caret-position="-887" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/estante/templates/base.html">
@@ -1511,25 +469,18 @@
     <entry file="file://$PROJECT_DIR$/estante/views/pessoa.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding />
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/estante/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/projeto/tests.py" />
     <entry file="file://$PROJECT_DIR$/estante/templates/lista_livros.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
-          <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding />
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1541,123 +492,125 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projeto/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/estante/models/emprestimo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/estante/forms/validators/livro_validator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding />
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/estante/forms/livro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/models/pessoa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/populate_livro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/populate_l.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="58" lean-forward="true" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/views/livro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="77" column="48" lean-forward="false" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
-          <folding />
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/locale/en/LC_MESSAGES/django.po">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="213" column="22" lean-forward="false" selection-start-line="213" selection-start-column="22" selection-end-line="213" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="118">
+          <caret line="211" column="28" lean-forward="true" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/populate_livro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/populate_l.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/views/livro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/modules.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+          <folding>
+            <element signature="e#564#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/sphinx/ext/autodoc/importer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/models/pessoa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/estante.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

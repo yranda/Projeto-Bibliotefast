@@ -8,4 +8,8 @@ Projeto inspirado no sistema Pergamum do IFC, no entanto, é tão ruim quanto! :
 #### Comando para rodar os testes:
 ###### python manage.py test
 
-#### Para rodar o populate de livro é necessário ter criado um usuário no sistema antes
+#### Para rodar o populate de livro é necessário ter criado um usuário no sistema antes.
+
+#### Comando para colocar a tradução:
+###### python manage.py makemessages -l en
+###### python manage.py compilemessages -l en

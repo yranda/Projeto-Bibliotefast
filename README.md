@@ -17,4 +17,4 @@ Projeto inspirado no sistema Pergamum do IFC! :)
 ###### python manage.py compilemessages -l en
 
 #### Para rodar o populate de livro é necessário ter criado um usuário no sistema antes.
-
+###### python populate_livro.py

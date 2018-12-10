@@ -26,7 +26,7 @@
                     <img src="{% static 'iconelivro.png' %}">
                 </a>
             {% else %}
-                <a class="ui logo icon image" href="/">
+                <a class="ui logo icon image" href={% url 'estante:login' %}>
                     <img src="{% static 'iconelivro.png' %}">
                 </a>
             {% endif %}

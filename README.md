@@ -1,5 +1,9 @@
 # Projeto-Bibliotefast
-Projeto inspirado no sistema Pergamum do IFC, no entanto, é tão ruim quanto! :)
+Projeto inspirado no sistema Pergamum do IFC! :)
+
+#### Veja rodando no ar:
+###### Em português - http://bibliotefast.pythonanywhere.com/pt-br/login/
+###### Em inglês - http://bibliotefast.pythonanywhere.com/en/login/
 
 #### Antes de tudo:
 ###### python manage.py makemigrations

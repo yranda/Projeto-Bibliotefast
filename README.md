@@ -18,3 +18,6 @@ Projeto inspirado no sistema Pergamum do IFC! :)
 
 #### Para rodar o populate de livro é necessário ter criado um usuário no sistema antes.
 ###### python populate_livro.py
+
+### Depois que efetuar todas as etapas, digite o comando para executar:
+###### python manage.py runserver 

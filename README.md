@@ -21,3 +21,6 @@ Projeto inspirado no sistema Pergamum do IFC! :)
 
 ### Depois que efetuar todas as etapas, digite o comando abaixo:
 ###### python manage.py runserver 
+
+#### Dica:
+###### Para criar uma virtualenv facilmente utilize o comando: "mkvirtualenv --python=/usr/bin/python3.5 nome_virtual_env"
